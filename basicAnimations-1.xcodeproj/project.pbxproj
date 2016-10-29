@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1009A56CC314B540A26B43C1 /* libPods-basicAnimations-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F1B9F36D140E31EBC0D2AE /* libPods-basicAnimations-1.a */; };
+		BA52404A1DC53EA900A3F87C /* sd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5240491DC53EA900A3F87C /* sd.jpg */; };
+		BA52404C1DC544CB00A3F87C /* sd.png in Resources */ = {isa = PBXBuildFile; fileRef = BA52404B1DC544CB00A3F87C /* sd.png */; };
 		BAFE8C8C1DBD3B9D00E90427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE8C8B1DBD3B9D00E90427 /* main.m */; };
 		BAFE8C8F1DBD3B9D00E90427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE8C8E1DBD3B9D00E90427 /* AppDelegate.m */; };
 		BAFE8C921DBD3B9D00E90427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE8C911DBD3B9D00E90427 /* ViewController.m */; };
@@ -22,6 +24,8 @@
 		1787A86B5836B072A7E1B6EE /* Pods-basicAnimations-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicAnimations-1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-basicAnimations-1/Pods-basicAnimations-1.debug.xcconfig"; sourceTree = "<group>"; };
 		2F4BB2AF1F5D6A68AD9309C9 /* Pods-basicAnimations-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicAnimations-1.release.xcconfig"; path = "Pods/Target Support Files/Pods-basicAnimations-1/Pods-basicAnimations-1.release.xcconfig"; sourceTree = "<group>"; };
 		86F1B9F36D140E31EBC0D2AE /* libPods-basicAnimations-1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basicAnimations-1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5240491DC53EA900A3F87C /* sd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sd.jpg; sourceTree = "<group>"; };
+		BA52404B1DC544CB00A3F87C /* sd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sd.png; sourceTree = "<group>"; };
 		BAFE8C871DBD3B9D00E90427 /* basicAnimations-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basicAnimations-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFE8C8B1DBD3B9D00E90427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAFE8C8D1DBD3B9D00E90427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,7 +100,9 @@
 		BAFE8C8A1DBD3B9D00E90427 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA52404B1DC544CB00A3F87C /* sd.png */,
 				BAFE8CA41DBD401400E90427 /* 10456104_608184949313638_1373052612903030434_n.jpg */,
+				BA5240491DC53EA900A3F87C /* sd.jpg */,
 				BAFE8C8B1DBD3B9D00E90427 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -173,9 +179,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA52404A1DC53EA900A3F87C /* sd.jpg in Resources */,
 				BAFE8C9A1DBD3B9D00E90427 /* LaunchScreen.storyboard in Resources */,
 				BAFE8C971DBD3B9D00E90427 /* Assets.xcassets in Resources */,
 				BAFE8CA51DBD401400E90427 /* 10456104_608184949313638_1373052612903030434_n.jpg in Resources */,
+				BA52404C1DC544CB00A3F87C /* sd.png in Resources */,
 				BAFE8C951DBD3B9D00E90427 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

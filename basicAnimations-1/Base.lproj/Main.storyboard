@@ -18,10 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10456104_608184949313638_1373052612903030434_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C2Z-Sn-d5k">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sd.png" translatesAutoresizingMaskIntoConstraints="NO" id="C2Z-Sn-d5k">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="dhD-Ji-GNW"/>
-                                    <constraint firstAttribute="height" constant="250" id="yEo-Fn-M0D"/>
+                                    <constraint firstAttribute="width" constant="158" id="dhD-Ji-GNW"/>
+                                    <constraint firstAttribute="height" constant="200" id="yEo-Fn-M0D"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeH-JZ-vwl">
@@ -123,6 +123,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="10456104_608184949313638_1373052612903030434_n.jpg" width="347" height="347"/>
+        <image name="sd.png" width="223" height="286"/>
     </resources>
 </document>

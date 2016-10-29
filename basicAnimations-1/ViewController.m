@@ -35,12 +35,12 @@
     self.button5.alpha = 0;
     self.label1.alpha = 0;
     self.label2.alpha = 0;
-//    NSArray *colorsArray = [NSArray arrayWithObjects:[UIColor blackColor],[UIColor lightGrayColor],[UIColor blackColor] ,nil];
-//    
-//    
+    NSArray *colorsArray = [NSArray arrayWithObjects:[UIColor blackColor],[UIColor darkGrayColor],[UIColor blackColor] ,nil];
     
-//    self.view.backgroundColor = [UIColor colorWithGradientStyle:UIGradientStyleTopToBottom withFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) andColors:colorsArray];
-//
+    
+    
+    self.view.backgroundColor = [UIColor colorWithGradientStyle:UIGradientStyleLeftToRight withFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) andColors:colorsArray];
+
     
     UIImage *icon1 = [IonIcons imageWithIcon:ion_social_googleplus
                                    iconColor:[UIColor whiteColor]
