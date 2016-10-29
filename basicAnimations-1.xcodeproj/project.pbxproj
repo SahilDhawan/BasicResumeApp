@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1009A56CC314B540A26B43C1 /* libPods-basicAnimations-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F1B9F36D140E31EBC0D2AE /* libPods-basicAnimations-1.a */; };
 		BAFE8C8C1DBD3B9D00E90427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE8C8B1DBD3B9D00E90427 /* main.m */; };
 		BAFE8C8F1DBD3B9D00E90427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE8C8E1DBD3B9D00E90427 /* AppDelegate.m */; };
 		BAFE8C921DBD3B9D00E90427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE8C911DBD3B9D00E90427 /* ViewController.m */; };
 		BAFE8C951DBD3B9D00E90427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFE8C931DBD3B9D00E90427 /* Main.storyboard */; };
 		BAFE8C971DBD3B9D00E90427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFE8C961DBD3B9D00E90427 /* Assets.xcassets */; };
 		BAFE8C9A1DBD3B9D00E90427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFE8C981DBD3B9D00E90427 /* LaunchScreen.storyboard */; };
+		BAFE8CA31DBD3C1200E90427 /* LaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE8CA21DBD3C1200E90427 /* LaunchScreenViewController.m */; };
+		BAFE8CA51DBD401400E90427 /* 10456104_608184949313638_1373052612903030434_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE8CA41DBD401400E90427 /* 10456104_608184949313638_1373052612903030434_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1787A86B5836B072A7E1B6EE /* Pods-basicAnimations-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicAnimations-1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-basicAnimations-1/Pods-basicAnimations-1.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4BB2AF1F5D6A68AD9309C9 /* Pods-basicAnimations-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicAnimations-1.release.xcconfig"; path = "Pods/Target Support Files/Pods-basicAnimations-1/Pods-basicAnimations-1.release.xcconfig"; sourceTree = "<group>"; };
+		86F1B9F36D140E31EBC0D2AE /* libPods-basicAnimations-1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basicAnimations-1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFE8C871DBD3B9D00E90427 /* basicAnimations-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basicAnimations-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFE8C8B1DBD3B9D00E90427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAFE8C8D1DBD3B9D00E90427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,9 @@
 		BAFE8C961DBD3B9D00E90427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFE8C991DBD3B9D00E90427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFE8C9B1DBD3B9D00E90427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFE8CA11DBD3C1200E90427 /* LaunchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScreenViewController.h; sourceTree = "<group>"; };
+		BAFE8CA21DBD3C1200E90427 /* LaunchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchScreenViewController.m; sourceTree = "<group>"; };
+		BAFE8CA41DBD401400E90427 /* 10456104_608184949313638_1373052612903030434_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10456104_608184949313638_1373052612903030434_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1009A56CC314B540A26B43C1 /* libPods-basicAnimations-1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DBA2B543D74CF04E4B6FBE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F1B9F36D140E31EBC0D2AE /* libPods-basicAnimations-1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAFE8C7E1DBD3B9C00E90427 = {
 			isa = PBXGroup;
 			children = (
 				BAFE8C891DBD3B9D00E90427 /* basicAnimations-1 */,
 				BAFE8C881DBD3B9D00E90427 /* Products */,
+				EC05B8F4918686F6124955BB /* Pods */,
+				4DBA2B543D74CF04E4B6FBE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +85,8 @@
 				BAFE8C931DBD3B9D00E90427 /* Main.storyboard */,
 				BAFE8C961DBD3B9D00E90427 /* Assets.xcassets */,
 				BAFE8C981DBD3B9D00E90427 /* LaunchScreen.storyboard */,
+				BAFE8CA11DBD3C1200E90427 /* LaunchScreenViewController.h */,
+				BAFE8CA21DBD3C1200E90427 /* LaunchScreenViewController.m */,
 				BAFE8C9B1DBD3B9D00E90427 /* Info.plist */,
 				BAFE8C8A1DBD3B9D00E90427 /* Supporting Files */,
 			);
@@ -74,9 +96,19 @@
 		BAFE8C8A1DBD3B9D00E90427 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAFE8CA41DBD401400E90427 /* 10456104_608184949313638_1373052612903030434_n.jpg */,
 				BAFE8C8B1DBD3B9D00E90427 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC05B8F4918686F6124955BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1787A86B5836B072A7E1B6EE /* Pods-basicAnimations-1.debug.xcconfig */,
+				2F4BB2AF1F5D6A68AD9309C9 /* Pods-basicAnimations-1.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAFE8C9E1DBD3B9D00E90427 /* Build configuration list for PBXNativeTarget "basicAnimations-1" */;
 			buildPhases = (
+				61FA625E15304F64AE6B1A28 /* [CP] Check Pods Manifest.lock */,
 				BAFE8C831DBD3B9C00E90427 /* Sources */,
 				BAFE8C841DBD3B9C00E90427 /* Frameworks */,
 				BAFE8C851DBD3B9C00E90427 /* Resources */,
+				3B1C9DEA49CE225103C58F6C /* [CP] Embed Pods Frameworks */,
+				624D0047FC25249DC1E55932 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +145,7 @@
 				TargetAttributes = {
 					BAFE8C861DBD3B9C00E90427 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7Q7M69XNR3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,11 +175,60 @@
 			files = (
 				BAFE8C9A1DBD3B9D00E90427 /* LaunchScreen.storyboard in Resources */,
 				BAFE8C971DBD3B9D00E90427 /* Assets.xcassets in Resources */,
+				BAFE8CA51DBD401400E90427 /* 10456104_608184949313638_1373052612903030434_n.jpg in Resources */,
 				BAFE8C951DBD3B9D00E90427 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B1C9DEA49CE225103C58F6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basicAnimations-1/Pods-basicAnimations-1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FA625E15304F64AE6B1A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		624D0047FC25249DC1E55932 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basicAnimations-1/Pods-basicAnimations-1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAFE8C831DBD3B9C00E90427 /* Sources */ = {
@@ -151,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFE8C921DBD3B9D00E90427 /* ViewController.m in Sources */,
+				BAFE8CA31DBD3C1200E90427 /* LaunchScreenViewController.m in Sources */,
 				BAFE8C8F1DBD3B9D00E90427 /* AppDelegate.m in Sources */,
 				BAFE8C8C1DBD3B9D00E90427 /* main.m in Sources */,
 			);
@@ -270,8 +356,10 @@
 		};
 		BAFE8C9F1DBD3B9D00E90427 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1787A86B5836B072A7E1B6EE /* Pods-basicAnimations-1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q7M69XNR3;
 				INFOPLIST_FILE = "basicAnimations-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.basicAnimations-1";
@@ -281,8 +369,10 @@
 		};
 		BAFE8CA01DBD3B9D00E90427 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4BB2AF1F5D6A68AD9309C9 /* Pods-basicAnimations-1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q7M69XNR3;
 				INFOPLIST_FILE = "basicAnimations-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dhawan-sahil.basicAnimations-1";
@@ -309,6 +399,7 @@
 				BAFE8CA01DBD3B9D00E90427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
